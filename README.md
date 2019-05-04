@@ -16,24 +16,24 @@ hustoj -- 请一定认真看完本页再动手安装，以免无谓的折腾！
 
 首先安装Ubuntu14.04（编译器较老），然后用下面脚本快速安装OJ：  
 
-    wget https://raw.githubusercontent.com/zhblue/hustoj/master/trunk/install/install-ubuntu14.04.sh
+    wget https://raw.githubusercontent.com/ifwlzs/qzuoj/master/trunk/install/install-ubuntu14.04.sh
     sudo bash install-ubuntu14.04.sh
 
 或者安装ubuntu16.04（推荐使用,php7速度杠杠的），然后用下面脚本快速安装OJ：  
 
-    wget https://raw.githubusercontent.com/zhblue/hustoj/master/trunk/install/install-ubuntu16+.sh
+    wget https://raw.githubusercontent.com/ifwlzs/qzuoj/master/trunk/install/install-ubuntu16+.sh
     sudo bash install-ubuntu16+.sh
 
 https://www.youtube.com/watch?v=nlhmfZqyHnA 
 
 发烧级用户ubuntu18.04(至少1年以上debian系Linux使用经验，欢迎帮忙踩坑测试，有问题会尽快修复)
 
-    wget https://github.com/zhblue/hustoj/raw/master/trunk/install/install-ubuntu18.04.sh
+    wget https://github.com/ifwlzs/qzuoj/raw/master/trunk/install/install-ubuntu18.04.sh
     sudo bash install-ubuntu18.04.sh
 
 假如你不得已非要用centos7 （有的语言可能不支持，但是某些机架式服务器的Raid卡Ubuntu不认只能装CentOS），可以用下面脚本快速安装OJ：  
 
-    wget https://raw.githubusercontent.com/zhblue/hustoj/master/trunk/install/install-centos7.sh
+    wget https://raw.githubusercontent.com/ifwlzs/qzuoj/master/trunk/install/install-centos7.sh
     sudo bash install-centos7.sh
 
 https://www.youtube.com/watch?v=hRap7ettUWc
@@ -67,9 +67,9 @@ https://www.youtube.com/watch?v=hRap7ettUWc
 
 REDHAT / CENTOS 用户请浏览 
 
-https://github.com/zhblue/hustoj/blob/master/wiki/CentOSx86_64.md
+https://github.com/ifwlzs/qzuoj/blob/master/wiki/CentOSx86_64.md
 
-https://github.com/zhblue/hustoj/blob/master/wiki/CentOS.md
+https://github.com/ifwlzs/qzuoj/blob/master/wiki/CentOS.md
 
 
 docker安装，<b>仅供docker熟练用户参考使用，不适合用于生产环境！切记！切记！</b>
@@ -88,11 +88,11 @@ docker测试安装
 
 树莓派用户请用rpi分支源码（实验性质）手工搭建web，并编译安装core目录下的judged和judge_client。
 
-[更多安装方法](https://github.com/zhblue/hustoj/blob/master/trunk/install/README)
+[更多安装方法](https://github.com/ifwlzs/qzuoj/blob/master/trunk/install/README)
 
 有问题请先查阅
-<b>[FAQ](https://github.com/zhblue/hustoj/blob/master/wiki/FAQ.md)</b> 和
-<b>[Wiki](https://github.com/zhblue/hustoj/tree/master/wiki)</b> 或使用搜索引擎。  
+<b>[FAQ](https://github.com/ifwlzs/qzuoj/blob/master/wiki/FAQ.md)</b> 和
+<b>[Wiki](https://github.com/ifwlzs/qzuoj/tree/master/wiki)</b> 或使用搜索引擎。  
 
 使用上需要帮助，请加用户交流QQ群23361372，仅支持开通支付功能的手机QQ加群，不接受其他方式加群。
 群共享有题库 安装盘 文档 ，群内可以讨论 答疑 。
@@ -107,20 +107,20 @@ http://adc.zjicm.edu.cn/iso/hustoj20190128.iso
 
 HUSTOJ_Windows（仅支持XP,QQ群23361372共享文件）进行安装。
 
-使用说明见iso中README,也可以参考[LiveCD简介](https://github.com/zhblue/hustoj/tree/master/wiki/HUSTOJ_LiveCD.md)  
+使用说明见iso中README,也可以参考[LiveCD简介](https://github.com/ifwlzs/qzuoj/tree/master/wiki/HUSTOJ_LiveCD.md)  
 
 Linux新手请看[鸟哥的私房菜](http://cn.linux.vbird.org/linux_basic/linux_basic.php)
 
-建好系统需要题目，请访问[TK题库](http://tk.hustoj.com/) 和 [freeeproblemset项目](https://github.com/zhblue/freeproblemset)
+建好系统需要题目，请访问[TK题库](http://tk.hustoj.com/) 和 [freeeproblemset项目](https://github.com/ifwlzs/freeproblemset)
 
 
 [前台演示](http://hustoj.com/oj/)
 
 后台功能：
-<img src="https://raw.githubusercontent.com/zhblue/hustoj/master/wiki/menu.png" >
+<img src="https://raw.githubusercontent.com/ifwlzs/qzuoj/master/wiki/menu.png" >
 ----------------------
 硬件需求：
-<img src="https://raw.githubusercontent.com/zhblue/hustoj/master/wiki/hardware.png" >
+<img src="https://raw.githubusercontent.com/ifwlzs/qzuoj/master/wiki/hardware.png" >
 
 常见问题自动应答微信公众号:hustoj
 <img src="http://hustoj.com/wx.jpg" height="180">
@@ -136,7 +136,7 @@ HUSTOJ 是采用GPL的自由软件。
 
 论文请引用参考文献[基于开放式云平台的开源在线评测系统设计与实现](http://kns.cnki.net/KCMS/detail/detail.aspx?dbcode=CJFQ&dbname=CJFD2012&filename=JSJA2012S3088&uid=WEEvREcwSlJHSldRa1FhdXNXYXJwcFhRL1Z1Q2lKUDFMNGd0TnJVVlh4bz0=$9A4hF_YAuvQ5obgVAqNKPCYcEjKensW4ggI8Fm4gTkoUKaID8j8gFw!!&v=MjgwNTExVDNxVHJXTTFGckNVUkwyZlllWm1GaURsV3IvQUx6N0JiN0c0SDlPdnJJOU5iSVI4ZVgxTHV4WVM3RGg=)
 
-如果打算进行二次开发，[Wiki](https://github.com/zhblue/hustoj/tree/master/wiki)和这份[文档](https://github.com/zhblue/hustoj/blob/master/wiki/hustoj%E6%96%87%E6%A1%A3%E5%A4%A7%E5%85%A8.pdf)可能有帮助。
+如果打算进行二次开发，[Wiki](https://github.com/ifwlzs/qzuoj/tree/master/wiki)和这份[文档](https://github.com/ifwlzs/qzuoj/blob/master/wiki/hustoj%E6%96%87%E6%A1%A3%E5%A4%A7%E5%85%A8.pdf)可能有帮助。
 
 PS: GPL保证你可以合法忽略以上注意事项但不能保证你不受鄙视，呵呵。
 
