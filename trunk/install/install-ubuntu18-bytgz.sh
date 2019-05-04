@@ -7,7 +7,7 @@ if [ -z "$1" ]
 then  
     echo "Using github latest..."  
     cd /home/judge/
-    svn co https://github.com/ifwlzs/qzuoj/trunk/trunk/ src
+    svn co https://github.com/zhblue/hustoj/trunk/trunk/ src
 else
     tar xzf $1
     SRC=`find -name 'trunk'`
