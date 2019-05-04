@@ -2,7 +2,7 @@
 DATE=`date +%Y%m%d%H%M`
 if [ `whoami` = "root" ];then
 	cd /home/judge/
-	svn co https://github.com/zhblue/hustoj/trunk/trunk new
+	svn co https://github.com/ifwlzs/qzuoj/trunk/trunk new
 	cp src/web/include/db_info.inc.php new/web/include/
 	cp -a src/web/upload/* new/web/upload/
 	mv src "old.$DATE"
