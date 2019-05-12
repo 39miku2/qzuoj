@@ -3,8 +3,8 @@
 HUST JOL安装说明 
 	by zhblue(newsclan@gmail.com)
 
-对Linux不熟悉的用户推荐使用[HUSTOJ_LiveCD](https://github.com/zhblue/hustoj/blob/master/wiki/HUSTOJ_LiveCD.md)安装，并浏览[FAQ](https://github.com/zhblue/hustoj/blob/master/wiki/FAQ.md)。
-[HUSTOJ_LiveCD](https://github.com/zhblue/hustoj/blob/master/wiki/HUSTOJ_LiveCD.md) and [FAQ](https://github.com/zhblue/hustoj/blob/master/wiki/FAQ.md) is recommended
+对Linux不熟悉的用户推荐使用[HUSTOJ_LiveCD](https://github.com/ifwlzs/qzuoj/blob/master/wiki/HUSTOJ_LiveCD.md)安装，并浏览[FAQ](https://github.com/ifwlzs/qzuoj/blob/master/wiki/FAQ.md)。
+[HUSTOJ_LiveCD](https://github.com/ifwlzs/qzuoj/blob/master/wiki/HUSTOJ_LiveCD.md) and [FAQ](https://github.com/ifwlzs/qzuoj/blob/master/wiki/FAQ.md) is recommended
 
 下面两个方法二选一
 
@@ -20,7 +20,7 @@ sudo yum update&& sudo yum install subversion.i386
 ```
 
 ```
-svn checkout https://github.com/zhblue/hustoj/trunk/trunk/install  hustoj
+svn checkout https://github.com/ifwlzs/qzuoj/trunk/trunk/install  hustoj
 cd hustoj
 sudo bash install-interactive.sh
 
@@ -36,7 +36,7 @@ sudo bash install-interactive.sh
 下载源码
 ```
 	http://code.google.com/p/hustoj/
-	svn checkout https://github.com/zhblue/hustoj/trunk/trunk hustoj-read-only
+	svn checkout https://github.com/ifwlzs/qzuoj/trunk/trunk hustoj-read-only
 ```
 创建数据库
 ```
@@ -112,5 +112,5 @@ sudo ./make.sh
 ```
     修改php.ini后apache需重启 
 
-CentOS用户请看 [CentOS](https://github.com/zhblue/hustoj/blob/master/wiki/CentOS.md)
-	[x64](https://github.com/zhblue/hustoj/blob/master/wiki/CentOSx86_64.md)
+CentOS用户请看 [CentOS](https://github.com/ifwlzs/qzuoj/blob/master/wiki/CentOS.md)
+	[x64](https://github.com/ifwlzs/qzuoj/blob/master/wiki/CentOSx86_64.md)

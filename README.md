@@ -1,4 +1,4 @@
-hustoj -- 请一定认真看完本页再动手安装，以免无谓的折腾！
+qzuoj -- 请一定认真看完本页再动手安装，以免无谓的折腾！
 ======
 
 2019-4-13  更新：支持SQL判题，基于sqlite3，支持龙芯3A3000（致谢江苏航天龙梦信息技术有限公司提供龙芯主机！）。
@@ -111,7 +111,7 @@ HUSTOJ_Windows（仅支持XP,QQ群23361372共享文件）进行安装。
 
 Linux新手请看[鸟哥的私房菜](http://cn.linux.vbird.org/linux_basic/linux_basic.php)
 
-建好系统需要题目，请访问[TK题库](http://tk.hustoj.com/) 和 [freeeproblemset项目](https://github.com/ifwlzs/freeproblemset)
+建好系统需要题目，请访问[TK题库](http://tk.hustoj.com/) 和 [freeeproblemset项目](https://github.com/zhblue/freeproblemset)
 
 
 [前台演示](http://hustoj.com/oj/)
@@ -128,9 +128,9 @@ Linux新手请看[鸟哥的私房菜](http://cn.linux.vbird.org/linux_basic/linu
 关注后回复： 新装系统、升级、目录等关键词，系统会自动回复相关帮助。
 
 
-HUSTOJ is an GPL FreeSoftware?.
+QZUOJ is an GPL FreeSoftware?.
 
-HUSTOJ 是采用GPL的自由软件。
+QZUOJ 是采用GPL的自由软件。
 
 注意：基于本项目源码从事科研、论文、系统开发，"最好"在文中或系统中表明来自于本项目的内容和创意，否则所有贡献者可能会鄙视你和你的项目。使用本项目源码和freeproblemset题库请尊重程序员职业和劳动。
 

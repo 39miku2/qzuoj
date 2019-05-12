@@ -173,7 +173,7 @@ public class Main{
     <tr>
       <td align=right width=65%>
       <a href = "index.php.bak"><font color=red><?php echo $OJ_NAME?></font></a>
-      <a href = "https://github.com/zhblue/hustoj"><font color=red>17.12.01</font></a></td>
+      </td>
     </tr>
   </table>
 </center>

@@ -34,5 +34,5 @@ echo "<pre class='brush:c'>".htmlentities(str_replace("\n\r","\n",$view_content)
 <input onclick="draw()" type="button" value="Line Number">
 <input onclick="window.print();" type="button" value="<?php echo $MSG_PRINTER?>">
 <input onclick="location.href='printer.php?id=<?php echo $id?>';" type="button" value="<?php echo $MSG_PRINT_DONE?>">
-<img src="image/wx.jpg" height="100px" width="100px">
+
 </body>

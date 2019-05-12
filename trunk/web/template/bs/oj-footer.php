@@ -33,7 +33,7 @@
 		})()
 	</script>
 		<br>
-		All Copyright Reserved 2010-2015 <a href='<?php echo $OJ_HOME?>'><?php echo $OJ_NAME?></a> TEAM<br>
+		All Copyright Reserved 2018-2019 <a href='<?php echo $OJ_HOME?>'><?php echo $OJ_NAME?></a> TEAM<br>
 		<a href=gpl-2.0.txt><span class=green>GPL2.0</span></a> 2018-2019 <a href='#'>QZUOJ Project</a> TEAM<br>
 
      <?php if ($OJ_SAE) {

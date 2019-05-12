@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>   
 <fps version="1.2" url="https://github.com/zhblue/freeproblemset/">
-	<generator name="QZUOJ" url="https://github.com/zhblue/hustoj/"/>
+	<generator name="HUSTOJ" url="https://github.com/zhblue/hustoj/"/>
 	<item>
 <title><![CDATA[送分题-A+B Problem]]></title>
 <time_limit unit="s"><![CDATA[1]]></time_limit>

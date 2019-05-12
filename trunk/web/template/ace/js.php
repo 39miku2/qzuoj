@@ -23,8 +23,8 @@ $(document).ready(function(){
   $(".jumbotron").prepend(msg);
   $("form").append("<div id='csrf' />");
   $("#csrf").load("<?php echo $path_fix?>csrf.php");
-  $("body").append("<div id=footer class=center >GPLv2 licensed by <a href='#' >QZUOJ</a> "+(new Date()).getFullYear()+" </div>");
-  $("body").append("");
+  $("body").append("<div id=footer class=center ><a href='#' >QZUOJ</a> "+(new Date()).getFullYear()+" </div>");
+
 });
   console.log("If you want to change the appearance of the web pages, make a copy of bs3 under template directory.\nRename it to whatever you like, and change the $OJ_TEMPLATE value in db_info.inc.php\nAfter that modify files under your own directory .\n");
 
